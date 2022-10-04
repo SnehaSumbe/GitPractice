@@ -1,0 +1,23 @@
+git init --->to initialize
+touch filename.type -->to create new file or document
+git add . -->to add all changes
+git status
+git commit -m "Msg" -->to save
+git checkout -f -->undo to last commit
+git log -->to get information about user
+(git config --global user.name Sneha
+ git config --global user.name 
+ will returns Sneha
+ git config --global user.email sumbesneha@gmail.com
+ git config --global user.email
+ will returns email address
+)
+git log -p -2
+shows the last two commit information
+
+-------Branch Change----------
+git branch feature1 --->creates new branch
+git branch -->tells current branch
+git checkout feature1 -->switch to feature1
+git checkout master-->switch to master(master is default branch)
+git merge feature1 -->merges all changes made into master branch
